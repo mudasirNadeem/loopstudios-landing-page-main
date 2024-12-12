@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+
+  <title>Frontend Mentor | Loopstudios landing page</title>
+</head>
+<body class="flow">
+  
+  <header class="header container">
+    <img src="images/logo.svg" alt="Home">
+
+    <button class="btn open-menu js-open-menu" aria-expanded="false">
+      <img src="images/icon-hamburger.svg" alt="">
+    </button><!-- end open-menu -->
+
+    <button class="btn close-menu js-close-menu">
+      <img src="images/icon-close.svg" alt="">
+    </button><!-- end close-menu -->
+
+    <nav class="navbar navbar-primary" aria-label="Primary">
+      <ul class="navbar__list navbar__list-primary">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Support</a></li>
+      </ul><!-- end navbar__list -->
+    </nav><!-- end navbar -->
+  </header><!-- end header -->
+
+  <main class="main container flow">
+    <h1 class="main-heading uppercase">Immersive experiences that deliver</h1>
+
+    <div class="intro flow">
+      <img src="images/mobile/image-interactive.jpg" alt="A man wearing a virtual reality headset" class="intro-image">
+      <div class="intro-text flow">
+        <h2 class="intro-heading uppercase">The leader in interactive VR</h2>
+        <p class="intro-paragraph">Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.</p>
+      </div><!-- end intro-text -->
+    </div><!-- end intro -->
+
+    <div class="creations flow">
+      <div class="creations-intro">
+        <h2 class="creations-heading uppercase">Our creations</h2>
+        <a href="#" class="all-creations all-creations-desktop uppercase">See all</a>
+      </div><!-- end creations-intro -->
+
+      <div class="image-grid uppercase">
+        <ul class="image-grid__list">
+
+          <li class="image-grid__list-item">
+            <a href="#" class="image-grid__list-item__link">
+              <picture class="image-grid__image-wrapper">
+                <source srcset="images/desktop/image-deep-earth.jpg" media="(width > 50rem)">
+                <img src="images/mobile/image-deep-earth.jpg" alt="A satellite image of the earth.">
+              </picture><!-- end image-grid__image-wrapper -->
+              <p class="image-grid__list-item__paragraph">Deep earth</p>
+            </a><!-- end image-grid__list-item__link -->
+          </li><!-- end image-grid__list-item -->
+          
+          <li class="image-grid__list-item">
+            <a href="#" class="image-grid__list-item__link">
+              <picture class="image-grid__image-wrapper">
+                <source srcset="images/desktop/image-night-arcade.jpg" media="(width > 50rem)">
+                <img src="images/mobile/image-night-arcade.jpg" alt="An arcade game.">
+              </picture><!-- end image-grid__image-wrapper -->
+              <p class="image-grid__list-item__paragraph">Night arcade</p>
+            </a><!-- end image-grid__list-item__link -->
+          </li><!-- end image-grid__list-item -->
+          
+          <li class="image-grid__list-item">
+            <a href="#" class="image-grid__list-item__link">
+              <picture class="image-grid__image-wrapper">
+                <source srcset="images/desktop/image-soccer-team.jpg" media="(width > 50rem)">
+                <img src="images/mobile/image-soccer-team.jpg" alt="A young boy playing soccer.">
+              </picture><!-- end image-grid__image-wrapper -->
+              <p class="image-grid__list-item__paragraph">Soccer team VR</p>
+            </a><!-- end image-grid__list-item__link -->
+          </li><!-- end image-grid__list-item -->
+          
+          <li class="image-grid__list-item">
+            <a href="#" class="image-grid__list-item__link">
+              <picture class="image-grid__image-wrapper">
+                <source srcset="images/desktop/image-grid.jpg" media="(width > 50rem)">
+                <img src="images/mobile/image-grid.jpg" alt="A racing car seen from behind.">
+              </picture><!-- end image-grid__image-wrapper -->
+              <p class="image-grid__list-item__paragraph paragraph-short">The grid</p>
+            </a><!-- end image-grid__list-item__link -->
+          </li><!-- end image-grid__list-item -->
+          
+          <li class="image-grid__list-item">
+            <a href="#" class="image-grid__list-item__link">
+              <picture class="image-grid__image-wrapper">
+                <source srcset="images/desktop/image-from-above.jpg" media="(width > 50rem)">
+                <img src="images/mobile/image-from-above.jpg" alt="A road with many turns seen from above.">
+              </picture><!-- end image-grid__image-wrapper -->
+              <p class="image-grid__list-item__paragraph">From up above VR</p>
+            </a><!-- end image-grid__list-item__link -->
+          </li><!-- end image-grid__list-item -->
+          
+          <li class="image-grid__list-item">
+            <a href="#" class="image-grid__list-item__link">
+              <picture class="image-grid__image-wrapper">
+                <source srcset="images/desktop/image-pocket-borealis.jpg" media="(width > 50rem)">
+                <img src="images/mobile/image-pocket-borealis.jpg" alt="Borealis on the sky.">
+              </picture><!-- end image-grid__image-wrapper -->
+              <p class="image-grid__list-item__paragraph">Pocket borealis</p>
+            </a><!-- end image-grid__list-item__link -->
+          </li><!-- end image-grid__list-item -->
+          
+          <li class="image-grid__list-item">
+            <a href="#" class="image-grid__list-item__link">
+              <picture class="image-grid__image-wrapper">
+                <source srcset="images/desktop/image-curiosity.jpg" media="(width > 50rem)">
+                <img src="images/mobile/image-curiosity.jpg" alt="A machine on Mars.">
+              </picture><!-- end image-grid__image-wrapper -->
+              <p class="image-grid__list-item__paragraph">The curiosity</p>
+            </a><!-- end image-grid__list-item__link -->
+          </li><!-- end image-grid__list-item -->
+          
+          <li class="image-grid__list-item">
+            <a href="#" class="image-grid__list-item__link">
+              <picture class="image-grid__image-wrapper">
+                <source srcset="images/desktop/image-fisheye.jpg" media="(width > 50rem)">
+                <img src="images/mobile/image-fisheye.jpg" alt="A fisheye perspective.">
+              </picture><!-- end image-grid__image-wrapper -->
+              <p class="image-grid__list-item__paragraph">Make it fisheye</p>
+            </a><!-- end image-grid__list-item__link -->
+          </li><!-- end image-grid__list-item -->
+
+        </ul><!-- end image-grid__list -->
+      </div><!-- end image-grid -->
+
+      <div class="all-creations-mobile-wrapper">
+        <a href="#" class="all-creations all-creations-mobile uppercase">See all</a>
+      </div><!-- end all-creations-mobile-wrapper -->
+
+    </div><!-- end creations -->
+  </main><!-- end main -->
+
+  <footer class="footer">
+    <div class="footer-wrapper container">
+
+      <div class="footer-first flow">
+        <img src="images/logo.svg" alt="Home">
+        <nav class="navbar navbar-footer" aria-label="Footer">
+          <ul class="navbar__list navbar__list-footer">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
+          </ul><!-- end navbar__list -->
+        </nav><!-- end navbar -->
+      </div><!-- end footer-first -->
+
+      <div class="footer-second flow">
+        <div class="social-media">
+          <a href="#" class="social-media__link">
+            <img src="images/icon-facebook.svg" alt="Go to Twitter">
+          </a>
+          <a href="#" class="social-media__link">
+            <img src="images/icon-twitter.svg" alt="Go to Twitter">
+          </a>
+          <a href="#" class="social-media__link">
+            <img src="images/icon-pinterest.svg" alt="Go to Pinterest">
+          </a>
+          <a href="#" class="social-media__link">
+            <img src="images/icon-instagram.svg" alt="Go to Instagram">
+          </a>
+        </div><!-- end social-media -->
+        <p class="copyright">© 2021 Loopstudios. All rights reserved.</p>
+      </div><!-- end footer-second-->
+
+    </div><!-- end foooter-wrapper -->
+  </footer><!-- end footer -->
+
+</body>
+</html>
